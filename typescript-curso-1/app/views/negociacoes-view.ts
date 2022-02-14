@@ -5,6 +5,7 @@ export class NegociacaoView{
         this.elemento = document.querySelector(seletor)
 
     }
+    //teste alteração
 
     template():string{
         return `

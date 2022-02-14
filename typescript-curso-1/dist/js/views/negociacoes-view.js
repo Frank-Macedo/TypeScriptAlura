@@ -3,6 +3,7 @@ export class NegociacaoView {
         this.seletor = seletor;
         this.elemento = document.querySelector(seletor);
     }
+    //teste alteração
     template() {
         return `
         <table class = "table table-hover table bordered">
