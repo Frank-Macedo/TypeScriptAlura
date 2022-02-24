@@ -4,9 +4,9 @@ export class NegociacaoView {
         this.elemento = document.querySelector(seletor);
     }
     //teste alteração
-    template() {
+    template(model) {
         return `
-        <table class = "table table-hover table bordered">
+        <table class = "table table-hover table-bordered">
             <thead>
                 <tr>
                     <th>data</th>
@@ -14,10 +14,24 @@ export class NegociacaoView {
                     <th>valor</th>
                 </tr>            
             </thead>
+        
+            <tbody>
+               ${model.lista().map(negociacao => {
+            return `
+                    <tr>
+                       <td>'14/10/1990'</td>
+                       <td>${negociacao.quantidade}</td>
+                       <td>${negociacao.valor}</td>
+                    </tr>
+                      `;
+        })}
+              </tbody>
         </table>
         `;
     }
-    update() {
-        this.elemento.innerHTML = this.template();
+    update(model) {
+        const template = this.template(model);
+        console.log(template);
+        this.elemento.innerHTML = template;
     }
 }
