@@ -1,0 +1,61 @@
+[33mcommit 8cd4763cf0975ef8038adf049a5979805f926733[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: frank-macedo <franklin.macedo.sti@gmail.com>
+Date:   Thu Mar 10 20:17:30 2022 -0300
+
+    Fim do modulo 4- Lapidando nosso código
+
+[33mcommit 4bc73f2a92fb2188f871d6d23166899ce75b652f[m
+Author: frank-macedo <franklin.macedo.sti@gmail.com>
+Date:   Thu Mar 10 08:31:08 2022 -0300
+
+    Modulo 3, visibilidade de métodos e enumeration
+
+[33mcommit 8111fbf6244713572e4a8e175fa9425ba4e61c73[m
+Author: frank-macedo <franklin.macedo.sti@gmail.com>
+Date:   Mon Mar 7 17:23:48 2022 -0300
+
+    Finalizando o modulo 2 do curso parte 2
+
+[33mcommit fc6a3ff101d572ed71cb94dc35df86df836b37bf[m
+Author: frank-macedo <franklin.macedo.sti@gmail.com>
+Date:   Thu Feb 24 16:21:53 2022 -0300
+
+    Formatando a data
+
+[33mcommit a89c3424e8f4df297a67962541a3d40dbe97aecc[m
+Author: frank-macedo <franklin.macedo.sti@gmail.com>
+Date:   Thu Feb 24 16:13:48 2022 -0300
+
+    Unindo view e modelo
+
+[33mcommit bd019de7788a9c58259042eb8f7a508b283a3a6d[m[33m ([m[1;31mlocal/main[m[33m)[m
+Author: frank-macedo <franklin.macedo.sti@gmail.com>
+Date:   Tue Feb 15 07:52:50 2022 -0300
+
+    Revert "teste conflito"
+    
+    This reverts commit 2da87511e8fbc56a40dfe7c2c6020dac3b650b68.
+
+[33mcommit 2da87511e8fbc56a40dfe7c2c6020dac3b650b68[m
+Author: frank-macedo <franklin.macedo.sti@gmail.com>
+Date:   Tue Feb 15 07:44:22 2022 -0300
+
+    teste conflito
+
+[33mcommit 915fb8976e40985aa436d60f5d45c2282458be08[m[33m ([m[1;32msegundoModulo[m[33m)[m
+Author: frank-macedo <franklin.macedo.sti@gmail.com>
+Date:   Mon Feb 14 16:16:23 2022 -0300
+
+    Teste Branch
+
+[33mcommit 0691685bd40802da0c903a43d5d0d39a8e6e7cb9[m
+Author: frank-macedo <franklin.macedo.sti@gmail.com>
+Date:   Mon Feb 14 16:01:10 2022 -0300
+
+    Resolvendo arquivos do projeto
+
+[33mcommit d02230ea6f4030cb0ed4881c1c78e28ffd4b4637[m
+Author: frank-macedo <franklin.macedo.sti@gmail.com>
+Date:   Mon Feb 14 15:59:56 2022 -0300
+
+    first commit

@@ -11,7 +11,7 @@ export class NegociacaoController {
     private inputQuantidade: HTMLInputElement;
     private inputValor: HTMLInputElement;
     private negociacoes: Negociacoes = new Negociacoes();
-    private negociacoesView : NegociacaoView = new NegociacaoView('#negociacoesId',true)
+    private negociacoesView : NegociacaoView = new NegociacaoView('#negociacoesId')
     private mensagemView = new MensagemView('#mensagemView',true)
 
 
@@ -19,9 +19,9 @@ export class NegociacaoController {
 
 
     constructor() {
-        this.inputData = document.querySelector('#data');
-        this.inputQuantidade = document.querySelector('#quantidade');
-        this.inputValor = document.querySelector('#valor');
+        this.inputData = <HTMLInputElement>document.querySelector('#data');
+        this.inputQuantidade = <HTMLInputElement>document.querySelector('#quantidade');
+        this.inputValor = <HTMLInputElement>document.querySelector('#valor');
         this.negociacoesView.update(this.negociacoes)
 
     }
@@ -38,7 +38,9 @@ export class NegociacaoController {
         this.atualizaView()
         this.limparFormulario()
            
-    }
+    }/*
+    Comentando pra zoar o bagulho
+     */
 
     private ehDiaUtil(data: Date) :boolean{
         return data.getDay() > DiasDaSemana.DOMINGO && data.getDay() < DiasDaSemana.SABADO
